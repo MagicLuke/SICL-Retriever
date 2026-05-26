@@ -1,0 +1,3 @@
+{"id": "c0", "audio": "audio/candidate_semantic.wav", "text": "hello world"}
+{"id": "c1", "audio": "audio/candidate_other.wav", "text": "good morning"}
+{"id": "c2", "audio": "audio/candidate_acoustic.wav", "text": "hello again"}

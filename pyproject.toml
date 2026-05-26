@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SICL-Retriever"
+version = "0.1.0"
+description = "Retrieval and preparation utilities for Speech In-Context Learning, including TICL and TICL+."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "SICL Retrieval contributors"}]
+keywords = ["speech", "in-context-learning", "retrieval", "TICL", "TICL+"]
+dependencies = [
+    "numpy<2",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+faiss = ["faiss-cpu"]
+prep = [
+    "accelerate",
+    "datasets",
+    "faiss-cpu",
+    "librosa",
+    "sentence-transformers",
+    "torch",
+    "torchaudio",
+    "transformers",
+]
+test = []
+
+[project.scripts]
+sicl-retriever = "sicl_retriever.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

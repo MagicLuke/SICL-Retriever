@@ -1,0 +1,1 @@
+{"id": "q0", "audio": "audio/query.wav", "text": "query transcript", "pseudo_label": "hello world", "in_context_examples": [{"id": "c0", "audio": "audio/candidate_semantic.wav", "text": "hello world"}, {"id": "c2", "audio": "audio/candidate_acoustic.wav", "text": "hello again"}], "in_context_example_ids": [0, 2]}

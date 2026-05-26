@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the TICL and/or TICL+ papers as appropriate."
+title: "SICL-Retriever: Retrieval and Preparation Utilities for Speech In-Context Learning"
+authors:
+  - family-names: Zheng
+    given-names: Haolong
+  - family-names: Yegorova
+    given-names: Yekaterina
+  - family-names: Hasegawa-Johnson
+    given-names: Mark
+version: 0.1.0
+date-released: 2026-05-26
+references:
+  - type: conference-paper
+    title: "TICL: Text-Embedding KNN For Speech In-Context Learning Unlocks Speech Recognition Abilities of Large Multimodal Models"
+    authors:
+      - family-names: Zheng
+        given-names: Haolong
+      - family-names: Yegorova
+        given-names: Yekaterina
+      - family-names: Hasegawa-Johnson
+        given-names: Mark
+    year: 2026
+    conference:
+      name: "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing"
+    url: "https://arxiv.org/abs/2509.13395"
+    notes: "Accepted. Paper ID 9936."
+  - type: conference-paper
+    title: "TICL+: A Case Study On Speech In-Context Learning for Children's Speech Recognition"
+    authors:
+      - family-names: Zheng
+        given-names: Haolong
+      - family-names: Yegorova
+        given-names: Yekaterina
+      - family-names: Hasegawa-Johnson
+        given-names: Mark
+    doi: 10.48550/arXiv.2512.18263
+    year: 2025
+    conference:
+      name: "IEEE ASRU 2025 Satellite Workshop-AI for Children's Speech and Language"
