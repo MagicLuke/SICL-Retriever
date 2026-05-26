@@ -1,12 +1,25 @@
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
-*.egg-info/
+*$py.class
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.venv/
+.coverage
+htmlcov/
+
+# Packaging and virtual environments
+.Python
+*.egg-info/
 build/
 dist/
+.eggs/
+.venv/
+env/
+venv/
+ENV/
+
+# Local pipeline artifacts
 cache/
 data/
 output/
@@ -14,4 +27,11 @@ result/
 log/
 *.npy
 !examples/**/*.npy
+
+# Editor, OS, and notebook noise
 .DS_Store
+.ipynb_checkpoints/
+.env
+.envrc
+.vscode/
+.idea/
